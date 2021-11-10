@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h4 {
+  padding: 15px;
+  font-size: 24px;
+  font-family: "Impact,Charcoal,sans-serif";
+}
+
+.inputSearch {
+  width: 25%;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.addBtn {
+  background-color: grey;
+  font-size: 20px;
+  width: 5%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.addBtn:hover {
+  background-color: black;
+  color: white;
+  transition: 1s;
+}
+
+.header {
+  text-align: center;
+}
+
+.nationContainer {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.country__data {
+  padding-top: 50px;
+}
+
+/*
+
+
+
+*/

@@ -15,14 +15,24 @@
   <body>
     <div class="header">
       <h4>Search Nation!</h4>
-      <input
-        type="text"
-        class="inputSearch"
-        placeholder="Country name here..."
-      />
-      <button class="addBtn" type="button">Add</button>
     </div>
-    <div class="nationContainer"></div>
-    <div class="neighbourNationContainer"></div>
+    <div class="wrapper">
+      <div class="sidebar">
+        <input
+          type="text"
+          class="inputSearch"
+          placeholder="Country name here..."
+        />
+        <button class="addBtn" type="button">Search</button>
+      </div>
+      <div class="countries">
+        <div class="nationContainer">
+          <h2 class="titles">Home country</h2>
+        </div>
+        <div class="neighboursContainer">
+          <h2 class="titles">Neighbouring countries</h2>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

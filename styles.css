@@ -20,7 +20,7 @@ p {
 
 h4,
 h3 {
-  color: grey;
+  color: white;
   padding: 15px;
   font-size: 24px;
   font-family: "Impact,Charcoal,sans-serif";
@@ -31,6 +31,7 @@ h3 {
   border-radius: 10px;
   font-size: 20px;
   margin: 15px;
+  padding: 8px;
 }
 
 .addBtn {
@@ -41,6 +42,7 @@ h3 {
   cursor: pointer;
   transition: 1s;
   width: 150px;
+  margin-bottom: 30px;
 }
 
 .addBtn:hover {
@@ -55,45 +57,65 @@ h3 {
 
 .wrapper {
   display: flex;
-  width: 100%;
-  overflow: hidden;
+  flex-wrap: wrap;
 }
 
 .sidebar {
+  flex: 1 1 30%;
   padding-top: 20px;
   text-align: center;
-  /* float: left; */
-  /* width: 30%; */
   background-color: rgba(105, 105, 105, 0.2);
   height: auto;
 }
 
 .countries {
-  display: flex;
+  flex: 1 1 70%;
   text-align: center;
-  width: 100%;
+  background-color: rgba(105, 105, 105, 0.2);
 }
 
 .nationContainer {
-  width: 800px;
   padding: 50px;
   border: 5px solid black;
 }
 
 .neighboursContainer {
-  /* width: 800px;
-  padding: 50px; */
   display: flex;
-  text-align: center;
-  margin-top: 50px;
+  flex-wrap: wrap;
 }
 
-.country__data {
-  padding-top: 50px;
+.neighbourHeader {
+  flex: 1 1 100%;
+  text-align: center;
+}
+
+.neighbourContent {
+  flex: 1 1 100%;
+  border: 5px solid black;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(105, 105, 105, 0.2);
 }
 
 .neighbourCountry {
   border: 5px solid black;
+  float: left;
+}
+
+.recentSearchContainer {
+  background-color: rgba(204, 18, 18, 0.2);
+  padding: 30px;
+  opacity: 0;
+  transition: 1s;
+}
+
+.recentBoxHeader {
+  opacity: 0;
+  transition: 1s;
+}
+
+.country__data {
+  padding-top: 50px;
 }
 
 .titles {
@@ -106,4 +128,12 @@ h3 {
   padding: 5px;
   width: 400px;
   height: 250px;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  border-bottom: 2px solid black;
+  color: white;
+  font-size: 25px;
 }

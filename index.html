@@ -14,7 +14,7 @@
   </head>
   <body>
     <div class="header">
-      <h4>Search Nation!</h4>
+      <h4>Search Nation App!</h4>
     </div>
     <div class="wrapper">
       <div class="sidebar">
@@ -23,7 +23,12 @@
           class="inputSearch"
           placeholder="Country name here..."
         />
-        <button class="addBtn" type="button">Search</button>
+        <button class="addBtn" type="button">Search</button><br />
+        <h2 class="recentBoxHeader">Recently Searched</h2>
+
+        <div class="recentSearchContainer">
+          <ul class="searchedList"></ul>
+        </div>
       </div>
       <div class="countries">
         <div class="nationContainer">
@@ -32,7 +37,10 @@
       </div>
     </div>
     <div class="neighboursContainer">
-      <h2 class="titles">Neighbouring countries</h2>
+      <div class="neighbourHeader">
+        <h2 class="titles">Neighbouring countries</h2>
+      </div>
+      <div class="neighbourContent"></div>
     </div>
   </body>
 </html>

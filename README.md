@@ -4,4 +4,4 @@ So in this app I use https://restcountries.com/ API. Using Rest countries API I 
 When data has been fetched the searched country will be visible under "Home country" section with country flag, current population, region etc... fun facts.
 Same things will be shown of it's all neighbouring countries aswell.
 
-Link to teh app itself: https://wizardly-hamilton-cca425.netlify.app/
+Link to the app itself: https://wizardly-hamilton-cca425.netlify.app/
